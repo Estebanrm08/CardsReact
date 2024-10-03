@@ -1,0 +1,35 @@
+.estiloCard {
+    display: flex;
+    flex-direction: row;
+    border: 5px solid #16123b; 
+    border-radius: 20px;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    transition: transform 0.3s ease;
+    background: linear-gradient(to left, var(--fcolor), var(--scolor));
+    margin: 10px;
+    width: 110%; 
+    height: 130px; 
+}
+
+.estiloCard:hover {
+    transform: scale(1.05);
+}
+
+img {
+    width: 6rem; 
+    padding: 10px;
+    border-radius: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.2); /* Efecto de agrandamiento de íconos */
+}
+
+h1, h3 {
+    margin: 0;
+    padding-left: 20px;
+    color: rgb(255, 255, 255);
+}

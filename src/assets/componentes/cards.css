@@ -1,0 +1,7 @@
+.estilo {
+    display: flex;
+    flex-direction: column; /* Para que las cartas se coloquen una debajo de otra, como listas */
+    gap: 20px; /* Espacio entre las cartas */
+    justify-content: center;
+    align-items: center; /* Centra las cartas horizontalmente */
+}
